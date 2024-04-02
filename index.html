@@ -1,0 +1,66 @@
+<html>
+
+<head>
+    <title>Counter </title>
+    <link rel="stylesheet" href="style.css">
+    
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+</head>
+
+<body>
+
+    <div class="hero">
+        <div class="title">
+            <h1>COUNTER</h1>
+            <p>Duis vulputate et nulla ac dapibus. Nullam feugiat massa elit, at scelerisque urna facilisis id. Suspendisse commodo scelerisque sem sit amet aliquam. Curabitur nulla lectus, pretium ac arcu sed, laoreet eleifend nunc.Duis vulputate et nulla ac dapibus. Nullam feugiat massa elit.</p>
+        </div>
+
+        <div class="row">
+            <div class="col">
+                <div class="counter-box">
+                    <h2 class="counter">96</h2><span>%</span>
+                    <h4>Satisfaction</h4>
+                </div>
+            </div>
+            <div class="col">
+                <div class="counter-box">
+                    <h2 class="counter">18</h2><span>k</span>
+                    <h4>Attendence</h4>
+                </div>
+            </div>
+            <div class="col">
+                <div class="counter-box">
+                    <h2 class="counter">3859</h2>
+                    <h4>Records</h4>
+                </div>
+            </div>
+            <div class="col">
+                <div class="counter-box">
+                    <h2 class="counter">6</h2>
+                    <h4>Years</h4>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+
+
+
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/waypoints/2.0.3/waypoints.min.js"></script>
+    <script src="jquery.counterup.min.js"></script>
+
+    <script>
+        jQuery(document).ready(function($) {
+            $('.counter').counterUp({
+                delay: 10,
+                time: 1000
+            });
+        });
+
+    </script>
+
+
+</body>
+
+</html>
